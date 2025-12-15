@@ -34,7 +34,7 @@ let Quiz = ({ data }) => {
   };
   setTimeout(() => {
     Count < data.length - 1 ? Satecount(Count + 1) : setFinished(true);
-  }, 2000);
+  }, 10000);
   if (finished) {
     if (finished) {
       return (
